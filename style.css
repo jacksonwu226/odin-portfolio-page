@@ -198,7 +198,10 @@ footer{
   color: black;
   font-size: var(--font-size-1);
 }
-
+.phone-number,
+.email{
+  margin-left: var(--gap-1);
+}
 .contact-info a svg,
 .contact-info a img{
   height: 100%;
@@ -213,6 +216,30 @@ footer{
   max-width: 250px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
   z-index: 1;
+}
+
+/* hover actions */
+.project-card,
+.profile-link-bar a,
+.project-card .project-links a,
+.contact-links a,
+.contact-phone-container a,
+.contact-email-container a{
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.project-card:hover{
+  transform:scale(1.01);
+}
+.profile-link-bar a:hover,
+.project-card .project-links a:hover,
+.contact-links a:hover{
+  transform:scale(1.1);
+}
+.contact-phone-container a:hover,
+.contact-email-container a:hover{
+  transform:scale(1.05);
 }
 
 @media(max-width: 1200px){
