@@ -279,10 +279,10 @@ footer{
     gap: var(--gap-2);
   }
   header{
-    transform: scaleY(2) translateY(-20rem) skewY(-5deg);  
+    transform: scaleY(2) translateY(-40rem) skewY(-5deg);  
   }
   .profile-wrapper{
-    transform: skewY(5deg) translateY(20rem) scaleY(0.5);
+    transform: skewY(5deg) translateY(40rem) scaleY(0.5);
     padding: var(--margin-3);
   }
   .profile-info{
